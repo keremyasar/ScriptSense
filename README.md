@@ -11,8 +11,8 @@ vektörleme.py kodu ile diyalogların stemmed ve lemmatized hallerinin TF-IDF ve
 modelleme.py kodu ile stemmed ve lemmatized veri setleri için 8'şer toplamda da 16 model eğitimi yapılmalı
 
 benzer kelime bulma modeli.py ile istenilirse kelimelerin Word2Vec Vektörleştirme sonuçlarına göre en yakın 5 kelimesi bulunabilir
-      bu kod çalıştırılırken stemmed bir model seçilirse girilen kelime stemmed edilmiş hali ile aranmalı
-      lemmatized bir model seçilirse girilen kelime lemmatized edilmiş hali ile aranmalı
+      (bu kod çalıştırılırken stemmed bir model seçilirse girilen kelime stemmed edilmiş hali ile aranmalı
+      lemmatized bir model seçilirse girilen kelime lemmatized edilmiş hali ile aranmalı)
 
 son olarak benzer film bulma modeli.py kodu çalıştırılarak senaryo benzerliklerine göre film öneren model kullanıma hazır hale getirilmeli
 
