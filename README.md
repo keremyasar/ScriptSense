@@ -16,6 +16,11 @@ benzer kelime bulma modeli.py ile istenilirse kelimelerin Word2Vec Vektörleşti
 
 son olarak benzer film bulma modeli.py kodu çalıştırılarak senaryo benzerliklerine göre film öneren model kullanıma hazır hale getirilmeli
 
+Cümle_ayıklama.py kodu çalıştırılıp her metinden bir cümle seçilip output.csv dosyasına kaydettirme işlemi yapılmalı
+
+Benzerlik_hesaplama.py kod dosyası ile output.csv dosyasını kullanılarak verilen örnek bir cümlenin 16 modele göre en benzer 5 cümlesi benzerlik_sonuclari.csv dosyasına yazdırılmalı
+
+Jaccard.py ile benzerlik_sonuclari.csv dosyasına göre modellerin birbiri ile kıyasları yapılıp matris şeklinde jaccard_matrix.csv dosyasına kaydedilmeli
 
 GEREKLİ KÜTÜPHANELER ve KURULUMLAR
 import requests
@@ -25,16 +30,19 @@ import time
 import re
 import nltk
 from urllib.parse import urljoin
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-from nltk.stem import WordNetLemmatizer
+from nltk.stem import PorterStemmer, WordNetLemmatizer
 from textblob import Word
 import pandas as pd
-from nltk.tokenize import sent_tokenize
+import numpy as np
+import csv
+import random
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 import gensim
 from gensim.models import Word2Vec
+from itertools import combinations
 
 
 pip install requests beautifulsoup4 nltk textblob pandas scikit-learn gensim
