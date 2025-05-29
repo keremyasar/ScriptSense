@@ -1,0 +1,71 @@
+Model Adı,Document ID,Benzerlik Skoru,İçerik
+tfidf_lemmatized,E.T..txt,0.2965413254941045,[The protagonist has the added jeopardy of being abandoned
+tfidf_lemmatized,Manhattan_Murder_Mystery.txt,0.29113150442795,The camera starts moving around the car
+tfidf_lemmatized,"Road,_The.txt",0.2738681311101269,The BOY looks at the ground
+tfidf_lemmatized,American_Outlaws.txt,0.26984191725790246,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+tfidf_lemmatized,Capote.txt,0.26707292463420707,She walks down the hall to a BEDROOM DOOR at the end
+tfidf_stemmed,E.T..txt,0.2965413254941045,[The protagonist has the added jeopardy of being abandoned
+tfidf_stemmed,Manhattan_Murder_Mystery.txt,0.29113150442795,The camera starts moving around the car
+tfidf_stemmed,"Road,_The.txt",0.2738681311101269,The BOY looks at the ground
+tfidf_stemmed,American_Outlaws.txt,0.26984191725790246,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+tfidf_stemmed,Capote.txt,0.26707292463420707,She walks down the hall to a BEDROOM DOOR at the end
+word2vec_lemmatized_cbow_window2_dim100,Omega_Man.txt,0.5224368,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_lemmatized_cbow_window2_dim100,American_Outlaws.txt,0.3828085,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_lemmatized_cbow_window2_dim100,Made.txt,0.14441094,"""Made"" -- by Jon Favreau                                                            MADE               INT"
+word2vec_lemmatized_skipgram_window2_dim100,Omega_Man.txt,0.790007,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_lemmatized_skipgram_window2_dim100,American_Outlaws.txt,0.768642,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_lemmatized_skipgram_window2_dim100,Made.txt,0.46777278,"""Made"" -- by Jon Favreau                                                            MADE               INT"
+word2vec_lemmatized_cbow_window4_dim100,Omega_Man.txt,0.3248968,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_lemmatized_cbow_window4_dim100,Manhattan_Murder_Mystery.txt,0.15273282,The camera starts moving around the car
+word2vec_lemmatized_cbow_window4_dim100,American_Outlaws.txt,0.15614672,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_lemmatized_cbow_window4_dim100,Detroit_Rock_City.txt,0.1861876,He takes her arm and begins kissing his way up to
+word2vec_lemmatized_cbow_window4_dim100,Hellraiser__Hellseeker.txt,0.027172126,Trevor's body and get to work
+word2vec_lemmatized_skipgram_window4_dim100,Omega_Man.txt,0.771993,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_lemmatized_skipgram_window4_dim100,American_Outlaws.txt,0.7247225,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_lemmatized_skipgram_window4_dim100,Made.txt,0.4824605,"""Made"" -- by Jon Favreau                                                            MADE               INT"
+word2vec_lemmatized_cbow_window2_dim300,Omega_Man.txt,0.47511995,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_lemmatized_cbow_window2_dim300,American_Outlaws.txt,0.37972412,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_lemmatized_cbow_window2_dim300,Made.txt,0.13092813,"""Made"" -- by Jon Favreau                                                            MADE               INT"
+word2vec_lemmatized_skipgram_window2_dim300,Omega_Man.txt,0.65392095,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_lemmatized_skipgram_window2_dim300,American_Outlaws.txt,0.73340714,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_lemmatized_skipgram_window2_dim300,Made.txt,0.3498326,"""Made"" -- by Jon Favreau                                                            MADE               INT"
+word2vec_lemmatized_cbow_window4_dim300,Omega_Man.txt,0.31765857,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_lemmatized_cbow_window4_dim300,Manhattan_Murder_Mystery.txt,0.106655836,The camera starts moving around the car
+word2vec_lemmatized_cbow_window4_dim300,American_Outlaws.txt,0.178375,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_lemmatized_cbow_window4_dim300,Detroit_Rock_City.txt,0.16083173,He takes her arm and begins kissing his way up to
+word2vec_lemmatized_cbow_window4_dim300,Bad_Boys.txt,0.062698916,Burnett's hanging onto the handle above the
+word2vec_lemmatized_skipgram_window4_dim300,Omega_Man.txt,0.6741381,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_lemmatized_skipgram_window4_dim300,American_Outlaws.txt,0.68130463,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_lemmatized_skipgram_window4_dim300,Made.txt,0.38816822,"""Made"" -- by Jon Favreau                                                            MADE               INT"
+word2vec_stemmed_cbow_window2_dim100,American_Psycho.txt,0.29294536,chainsaw in her back
+word2vec_stemmed_cbow_window2_dim100,Omega_Man.txt,0.34668994,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_stemmed_cbow_window2_dim100,From_Dusk_Till_Dawn.txt,0.24275842,AN OLDER WOMAN tied up and helpless in the trunk
+word2vec_stemmed_cbow_window2_dim100,American_Outlaws.txt,0.25399333,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_stemmed_cbow_window2_dim100,Looper.txt,0.4045622,Seth knocks something over in the dark
+word2vec_stemmed_skipgram_window2_dim100,American_Outlaws.txt,0.818614,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_stemmed_skipgram_window2_dim100,Halloween.txt,0.57523596,meets Shanah in the middle of the room
+word2vec_stemmed_skipgram_window2_dim100,Avengers__Endgame.txt,0.6898543,A HUGE TARP flaps over the shuttered LINCOLN CENTER
+word2vec_stemmed_cbow_window4_dim100,Manhattan_Murder_Mystery.txt,0.44279122,The camera starts moving around the car
+word2vec_stemmed_cbow_window4_dim100,From_Dusk_Till_Dawn.txt,0.057338197,AN OLDER WOMAN tied up and helpless in the trunk
+word2vec_stemmed_cbow_window4_dim100,American_Psycho.txt,0.10359061,chainsaw in her back
+word2vec_stemmed_cbow_window4_dim100,Rush_Hour.txt,0.029456254,up on the stopped Mercedes
+word2vec_stemmed_cbow_window4_dim100,Perfect_Creature.txt,-0.0126604065,Lilly flips the lid on one of the boxes
+word2vec_stemmed_skipgram_window4_dim100,Hard_to_Kill.txt,0.69713604,Storm again approaches the Makiwara
+word2vec_stemmed_skipgram_window4_dim100,Avengers__Endgame.txt,0.7053772,A HUGE TARP flaps over the shuttered LINCOLN CENTER
+word2vec_stemmed_skipgram_window4_dim100,Lincoln.txt,0.81776226,Lincoln watches Clark until the fog's swallowed him up
+word2vec_stemmed_skipgram_window4_dim100,15_Minutes.txt,0.65970707,Robert steps off the stool
+word2vec_stemmed_cbow_window2_dim300,Omega_Man.txt,0.28929928,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_stemmed_cbow_window2_dim300,Manhattan_Murder_Mystery.txt,0.4930582,The camera starts moving around the car
+word2vec_stemmed_cbow_window2_dim300,American_Outlaws.txt,0.21655546,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_stemmed_skipgram_window2_dim300,American_Outlaws.txt,0.74809813,"""American Outlaws"" -- by Roderick Taylor and John Rogers                                                            FADE IN:               EXT"
+word2vec_stemmed_skipgram_window2_dim300,Omega_Man.txt,0.61294186,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_stemmed_skipgram_window2_dim300,Made.txt,0.721309,"""Made"" -- by Jon Favreau                                                            MADE               INT"
+word2vec_stemmed_cbow_window4_dim300,Manhattan_Murder_Mystery.txt,0.33464113,The camera starts moving around the car
+word2vec_stemmed_cbow_window4_dim300,From_Dusk_Till_Dawn.txt,0.08302093,AN OLDER WOMAN tied up and helpless in the trunk
+word2vec_stemmed_cbow_window4_dim300,Omega_Man.txt,0.17158696,I AM LEGEND Screenplay By John William Corrington  First Draft: 6/26/70 Revised: 7/18/70         Property of Walter Seltzer Productions Inc
+word2vec_stemmed_cbow_window4_dim300,Rush_Hour.txt,0.15645865,up on the stopped Mercedes
+word2vec_stemmed_cbow_window4_dim300,Pirates_of_the_Caribbean__Dead_Man's_Chest.txt,0.2165676,"terrible beastie off the hunt, eh"
+word2vec_stemmed_skipgram_window4_dim300,Avengers__Endgame.txt,0.5810702,A HUGE TARP flaps over the shuttered LINCOLN CENTER
+word2vec_stemmed_skipgram_window4_dim300,15_Minutes.txt,0.5726644,Robert steps off the stool
+word2vec_stemmed_skipgram_window4_dim300,Lincoln.txt,0.76484203,Lincoln watches Clark until the fog's swallowed him up
+word2vec_stemmed_skipgram_window4_dim300,Halloween.txt,0.60065264,meets Shanah in the middle of the room
